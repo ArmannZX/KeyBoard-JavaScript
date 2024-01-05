@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(41, 40, 45);
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  gap: 40px;
+}
+#h1 {
+  font-size: 50px;
+  color: greenyellow;
+  width: 50%;
+  border: none;
+  outline: none;
+  background-color: rgb(41, 40, 45);
+}
+.KeyBoard {
+  background-color: rgb(41, 40, 45);
+  box-shadow: 0 0px 8px 1px black;
+  width: 55%;
+  height: 38%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+}
+.Row1 {
+  display: flex;
+  justify-content: center;
+  gap: 3%;
+}
+.Row2 {
+  display: flex;
+  justify-content: center;
+  gap: 3%;
+}
+.Row3 {
+  display: flex;
+  justify-content: center;
+  gap: 3%;
+}
+.KeyST1 {
+  display: flex;
+  width: 7%;
+  height: 200%;
+  justify-content: center;
+  align-items: center;
+  color: rgb(221, 217, 217);
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  box-shadow: 0 0 8px -1px black;
+}
+.KeyST2 {
+  color: yellowgreen;
+  outline: 1px solid yellowgreen;
+  box-shadow: inset 0 0 20px -1px black;
+}
